@@ -1,0 +1,39 @@
+@import "../../../bower_components/bootstrap/scss/mixins/gradients";
+
+.block {
+  //position: relative;
+  //min-height: 500px;
+  //margin: 0;
+  color: white;
+  font-size: 20px;
+  //width: 100%;
+
+  div.content {
+    padding: 15px;
+  }
+
+  //footer {
+  //  position: absolute;
+  //  bottom: 0;
+  //  padding: 15px;
+  //}
+
+  &.blue {
+    @include gradient-directional(#0fb8ad, #2cb5e8);
+  }
+
+  &.green {
+    @include gradient-directional(#a6b829, #bce8a3);
+  }
+
+  &.red {
+    @include gradient-directional(#b82376, #e88c65);
+  }
+
+  //transition: all .2s ease-in-out;
+
+  //&:hover {
+  //  transform: scale(1.009);
+  //  cursor: pointer;
+  //}
+}

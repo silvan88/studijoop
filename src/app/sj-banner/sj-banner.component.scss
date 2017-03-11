@@ -1,0 +1,10 @@
+@import "../../../bower_components/bootstrap/scss/mixins/gradients";
+
+.sj-banner {
+  @include gradient-directional(#0fb8ad, #2cb5e8);
+
+  .content {
+    padding: 64px 15px;
+    color: white;
+  }
+}
